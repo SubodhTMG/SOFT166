@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+Naughts And Crosses
 
-You can use the [editor on GitHub](https://github.com/SubodhTMG/SOFT166/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The application implemented is Naughts And Crosses. The application consists of cells within the table to map out the input for the Xs and O’s. The purpose of having multiples cells in the table, precisely nine cells is to make three cells matching across the line or diagonally. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The code is implemented so user and AI compete to score 3 matching Xs or Os, the “X” is assigned to the user whereas the AI is assigned with the “O”. The AI difficulty is static and is not changeable. The AI will always wait for the user’s input before it updates the application. 
 
-### Markdown
+The application is sent along with a button (Restart) that corresponds to click. The function of the button is to restart the application from any point of the event. However, the main purpose was to be used when the user or Ai matches three cells, or when all cells are filled.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The colour of the cells changes after the whole table is filled or when three cells are matching. The colour of cells determines the win, lose and draw. When the user matches three cells, it will be highlighted with green(win), if AI matches three, highlighted with red(lose), and if all cells are filled without matching, highlighted blue(draw).
 
-```markdown
-Syntax highlighted code block
+To use this application
 
-# Header 1
-## Header 2
-### Header 3
+By opening the Index.html in any browser you will be greeted with the application at first sight. To actually start using it, you will need to input “X” in one of nine cells. When you hover over a cell, it will change the colour to orange, this indicates where your “X” will be placed. 
 
-- Bulleted
-- List
+After you make the first move, the AI will carry on then it will be your turn again, this will repeat until you win, lose or draw. Your goal is to match three “X” in a row, column or diagonally. 
 
-1. Numbered
-2. List
+Once you find yourself to win, lose or draw, to replay again, click on the “Restart” button. You can click on this button to restart at any point.
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SubodhTMG/SOFT166/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+5 Key Feature:
+Cells changes colour to act as selecting.
+All cells changes to blue to illustrate draw.
+Three cells changes to green to illustrate win.
+Three cells changes to red to illustrate lose.
+Restart button to restart the game.
