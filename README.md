@@ -1,6 +1,6 @@
 # SOFT166
 # developing a noughts and crosses game website
-##Fact Sheet
+#Fact Sheet
 Naughts And Crosses
 
 The application implemented is Naughts And Crosses. The application consists of cells within the table to map out the input for the Xs and O’s. The purpose of having multiples cells in the table, precisely nine cells is to make three cells matching across the line or diagonally. 
